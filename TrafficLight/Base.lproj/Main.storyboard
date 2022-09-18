@@ -48,7 +48,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="NEXT">
+                                        <fragment content="START">
                                             <attributes>
                                                 <font key="NSFont" size="24" name="STSongti-SC-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -56,6 +56,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2N-4t-uYv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -74,6 +77,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o1B-pA-hDM" secondAttribute="trailing" constant="132" id="oEt-B4-SeM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenSignalView" destination="o1B-pA-hDM" id="YKS-Oc-tdq"/>
+                        <outlet property="redSignalView" destination="eX1-dO-5dH" id="iVQ-CY-1yL"/>
+                        <outlet property="swichButton" destination="ILl-Qy-EPl" id="z2U-Dm-ahY"/>
+                        <outlet property="yellowSignalView" destination="XQj-ZX-bWI" id="v3z-Rh-mhZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
