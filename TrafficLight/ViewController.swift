@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var greenSignalView: UIView!
     @IBOutlet var swichButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
